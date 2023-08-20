@@ -16,11 +16,6 @@ O projeto inclui a implementação de várias funcionalidades inspiradas em um i
 O projeto está organizado da seguinte forma:
 
 - `src/` : Contém o código-fonte do projeto.
-  - `main/` : Contém as classes principais que implementam as funcionalidades do iPhone.
-  - `model/` : Contém as classes que representam os diferentes modelos de iPhone.
-  - `apps/` : Contém as classes que representam os aplicativos disponíveis no iPhone.
-  - `util/` : Contém classes utilitárias, como aquelas relacionadas à manipulação de mensagens, contatos, etc.
-- `diagrams/` : Contém diagramas de classes (gerados ou desenhados manualmente) que ilustram a estrutura das classes no projeto.
 
 ## Como Executar o Projeto
 
@@ -29,11 +24,11 @@ O projeto está organizado da seguinte forma:
 3. Navegue até o diretório onde você clonou o repositório.
 4. Compile as classes principais e suas dependências:
    ```bash
-   javac src/main/*.java src/model/*.java src/apps/*.java src/util/*.java
+   javac src/src/main/*.java
    ```
 5. Execute o programa principal:
    ```bash
-   java src/main/Main
+   java src/src/Main
    ```
 
 ## Contribuindo
